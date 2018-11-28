@@ -1,10 +1,12 @@
 const express = require('express');
+const { Prize } = require('./models');
 
 const app = express();
-const PORT = 8085;
+const PORT = 3000;
 
-app.listen('/', (req, res) => {
+app.get('/', (req, res) => {
   res.json({msg: 'This is thr root!'});
 });
 
-app.listen(PORT, () => console.log('up and running on: ', PORT));
+
+app.listen(3000, () => console.log('up and running on: '));
