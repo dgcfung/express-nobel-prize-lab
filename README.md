@@ -1,8 +1,9 @@
 # Sequelize Express Exercise
 
 ## Set up
-- `cd` into `express-sequelize`
+- `cd` into `express-db-lab`
 - run `createdb nobel_prizes_db`
+- run `npm install`
 - run `npm run resetDb` and `npm run seed`
 - Start up the server with `npm start` and try navigating to the root route
 
